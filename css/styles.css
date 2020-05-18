@@ -1,0 +1,45 @@
+/*** TAG STYLES ***/
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 5.5em;
+  margin-top: 0;
+
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+/***  CLASS STYLES ***/
+.pro {
+  text-decoration: underline;
+}
+
+.webdev-logo {
+  width: 650px;
+  height: 365px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  top: 200px;
+}
+
+.top-container {
+  background-color: #588da8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+}
