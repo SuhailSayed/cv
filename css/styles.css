@@ -2,7 +2,15 @@
 h1 {
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
-  margin-top: 50px;
+  margin: 50px auto 0 auto;
+}
+
+h3 {
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
 }
 
 body {
@@ -18,33 +26,66 @@ body {
   text-decoration: underline;
 }
 
+.profile {
+  margin-top: 30px;
+}
+
+.skill-row {
+  display: inline-block;
+  line-height: 2;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  width: 50%;
+}
+
 .subheading {
   font-size: 2.5rem;
+  font-weight: normal;
 }
 
 .webdev-logo {
-  width: 650px;
-  height: 365px;
+  float: left;
+  height: 245px;
+  margin-right: 65px;
+  object-fit: cover;
+  width: 245px;
 }
+
+.mech-logo {
+  float: right;
+  height: 310px;
+  position: relative;
+  /*right: 32.5px;*/
+  width: 310px;
+}
+
+.mech-skills-paragraph {}
 
 .top-cloud {
   position: absolute;
   right: 275px;
-  top: 50px;
+  top: 65px;
+}
+
+.mountain {
+  position: relative;
+  top: 12.5px;
 }
 
 .bottom-cloud {
   position: absolute;
   left: 275px;
-  top: 275px;
+  top: 300px;
 }
 
 .top-container {
   background-color: #588da8;
+  margin-bottom: 0;
   position: relative;
   padding-top: 100px;
+  line-height: 2;
 }
 
-.middle-container {
+.middle-container {}
 
-}
+.bottom-container {}
