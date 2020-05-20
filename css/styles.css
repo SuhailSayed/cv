@@ -1,19 +1,34 @@
 /*** TAG STYLES ***/
 h1 {
+  color: black;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  padding-bottom: 10px;
 }
 
 h3 {
   color: #11999E;
 }
 
+p {
+  line-height: 2;
+}
+
 a {
   color: #11999E;
 }
 
+a:hover {
+  color: #EAF6F6;
+}
+
 body {
+  color: #40514E;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   margin: 0;
@@ -21,28 +36,35 @@ body {
   text-align: center;
 }
 
+hr {
+  border-style: dotted none none;
+  border-width: 8px;
+  color: lightgrey;
+  margin: 100px auto;
+  width: 6%;
+}
+
 /***  CLASS STYLES ***/
 .pro {
   text-decoration: underline;
 }
 
-.profile {
-  display: inline-block;
-  margin-top: 30px;
-  width: 70%;
-}
-
 .skill-row {
   display: inline-block;
-  line-height: 2;
   margin: 50px auto 50px auto;
   text-align: left;
   width: 50%;
 }
 
 .subheading {
+  color: black;
   font-size: 2.5rem;
   font-weight: normal;
+}
+
+.intro {
+  margin: auto;
+  width: 30%;
 }
 
 .webdev-logo {
@@ -88,6 +110,53 @@ body {
   line-height: 2;
 }
 
-.middle-container {}
+.middle-container {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  margin: 100px 0;
+}
 
-.bottom-container {}
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 40px 0 20px ;
+}
+
+.footer-link{
+  text-decoration: none;
+  color: #11999E;
+  margin: 10px 10px 10px 10px;
+}
+
+.btn {
+	background-color:#11999E;
+	border-radius:7px;
+	border:1px solid #11999E;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:20px;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #30ebcd 5%, #2bc4ad 100%);
+	background-color:#2bc4ad;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
+.contact-message {
+  margin: 40px auto 60px;
+  width: 40%;
+}
+
+.footer-copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+  margin-bottom: 0;
+}
